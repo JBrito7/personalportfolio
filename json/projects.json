@@ -1,0 +1,12 @@
+[
+    {
+        "name": "UrbanPulse",
+        "description": "Uma loja de moda urbana feita para os que vivem no ritmo acelerado da cidade. Design responsivo, cat\u00e1logo din\u00e2mico e sistema de carrinho funcional. Desenvolvido com foco na experi\u00eancia do utilizador e performance.",
+        "image": "uploads\/686aa2d55ce0d_buildings-1836478_640.jpg"
+    },
+    {
+        "name": "GameHype",
+        "description": "Marketplace moderno para gamers. Cat\u00e1logo interativo com listagem de lan\u00e7amentos, plataformas e pr\u00e9-vendas. Interface envolvente, integra\u00e7\u00e3o com m\u00e9todos de pagamento e backend preparado para escalar.",
+        "image": "uploads\/686aa303c73a9_video-games-5412598_640.jpg"
+    }
+]

@@ -1,0 +1,123 @@
+/* Google Fonts */
+:root {
+  --font-syne: "Syne Mono", monospace;
+  --font-montserrat: "Montserrat", sans-serif;
+
+  /* Color Palette */
+
+  --blue-1: #010b40; /* Azul escuro */
+  --blue-2: #021e73; /* Azul médio escuro */
+  --blue-3: #010a26; /* Azul quase preto */
+  --blue-4: #1374f2; /* Azul neon forte */
+  --blue-5: #1b8ef2; /* Azul neon claro */
+  --white-cool: #dadada;
+
+  /* Box shadow RBA*/
+  --blue-4-rgba: rgba(19, 115, 242, 1);
+  --blue-5-rgba: rgba(26, 141, 242, 1);
+}
+
+/* General Definitions */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-montserrat);
+  background-color: var(--blue-3);
+  color: rgb(255, 255, 255);
+}
+
+hr {
+  width: 50%;
+  margin: 2rem auto;
+  border: 1px solid var(--blue-4);
+  box-shadow: 0 0 10px var(--blue-5);
+  opacity: 0.8;
+}
+
+/* Neon Buttons */
+
+.neon-btn {
+  display: inline-block;
+  background: linear-gradient(145deg, var(--blue-3), #2a3e5c);
+  color: white;
+  border: none;
+  padding: 0.75em 1.5em;
+  margin-top: 20px;
+  font-family: var(--font-syne);
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 0 2px var(--blue-4-rgba), 0 0 5px var(--blue-4-rgba),
+    0 0 10px var(--blue-5-rgba), 0 0 12px var(--blue-5-rgba);
+  transition: box-shadow 0.3s ease;
+  border: 2px solid transparent;
+  width: 100%;
+  min-width: 150px;
+  text-align: center;
+  height: 50px;
+}
+
+.neon-btn:hover,
+.neon-btn:focus {
+  box-shadow: 0 0 5px var(--blue-5-rgba), 0 0 10px var(--blue-5-rgba),
+    0 0 15px var(--blue-5-rgba), 0 0 20px var(--blue-5-rgba);
+  transform: translateY(-2px);
+  border: 2px solid var(--blue-5-rgba);
+}
+
+/* Neon hr */
+
+.neon-hr {
+  border: none;
+  width: 50%;
+  height: 1px;
+  background-color: #00f0ff;
+  box-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff, 0 0 30px #00f0ff;
+  margin: 20px auto;
+}
+
+/* Register Form */
+
+#register-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: var(--blue-3);
+}
+
+#register-section form {
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(145deg, var(--blue-2), var(--blue-3));
+  border-radius: 12px;
+  box-shadow: 0 0 5px var(--blue-4-rgba), 0 0 10px var(--blue-5-rgba),
+    0 0 15px var(--blue-5-rgba);
+  max-width: 400px;
+}
+
+.register-title h1 {
+  font-family: var(--font-syne);
+  color: var(--blue-4);
+  font-size: 2.3em;
+  text-shadow: 2px 2px 6px var(--blue-5-rgba);
+  text-align: center;
+  margin: 20px 0;
+}
+
+.register-title h1:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 8px var(--blue-5-rgba), 0 0 20px var(--blue-5-rgba),
+    0 0 30px var(--blue-5-rgba);
+}

@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfólio de Jéssica Brito, uma desenvolvedora web apaixonada por criar experiências digitais envolventes e intuitivas. Conheça meus projetos e serviços.">
+    <meta name="keywords" content="Jéssica Brito, desenvolvedora web, web developer, frontend, back-end, UX/UI, portfólio, projetos web, serviços de desenvolvimento web">
+    <meta name="author" content="Jéssica Brito">
+
+        <!-- Bootstrap File -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <!-- CSS File -->
+        <link rel="stylesheet" href="../css/servicos-styles.css">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32">
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/a0444fec76.js" crossorigin="anonymous"></script>
+
+        <!-- Typed.js -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <!-- Particles.js -->
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.37.0/tsparticles.min.js"></script>
+
+        <!-- Lottie Files -->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+        <!-- Title -->
+        <title> Jéssica Brito | Web Developer</title>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Syne+Mono&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <span class="brand-main">Jéssica Brito <img src="../img/code.png" alt="coding logo"></span>
+          <span class="brand-subtitle">Web Developer</span>
+        </a>
+          <ul class="navbar-nav ms-auto flex-row gap-3">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/sobre-mim.html" >Sobre Mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contact.html">Contactos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../pages/servicos.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../pages/projectos.html">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../auth/login/login.php" title="Login">
+              <i class="fas fa-sign-in-alt"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../auth/register/register.php" title="Registar">
+                <i class="fas fa-id-card"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../my-admin/admin.php" title="My Admin">
+                <i class="fa-solid fa-user-tie"></i>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+
+    <!-- NavBar para versão mobile -->
+    <div class="mobile-topbar">
+      <button class="openbtn" onclick="openNav()">☰</button>
+        <a class="navbar-brand" href="../index.html">
+          <span class="brand-main">Jéssica Brito <img src="../img/code.png" alt="coding logo"></span>
+          <span class="brand-subtitle">Web Developer</span>
+        </a>
+    </div>
+
+        <!-- Sidebar -->
+        <div id="mySidebar" class="sidebar-glass">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+          <a href="../index.html">Home</a>
+          <a href="../pages/sobre-mim.html">Sobre Mim</a>
+          <a href="../pages/contact.html">Contactos</a>
+          <a href="../pages/servicos.html">Serviços</a>
+          <a href="../pages/projectos.html">Projetos</a>
+          <a href="../my-admin/admin.php">My Admin</a>
+          <a class="nav-link" aria-current="page" href="../auth/login/login.php" title="Login">
+          <i class="fas fa-sign-in-alt"></i>
+        </a>
+        <a class="nav-link" aria-current="page" href="../auth/register/register.php" title="Registar">
+          <i class="fas fa-id-card"></i>
+        </a>
+        </div>
+  </header>
+
+  <hr class="neon-hr">
+
+  <main>
+    <!-- Banner -->
+    <section class="banner container-fluid">
+      <div id="tsparticles"></div>
+        <div class="row align-items-center">
+          <div class="banner-img col-md-4 text-center">
+            <lottie-player src="../json/lottieflies-anime/services-anime.json"
+            class="lottie-animation"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+
+        <div class="banner-title col-md-8 text-center">
+          <h1>
+            <span class="typed-text"></span>
+            <span class="cursor"></span>
+          </h1>
+          <p>“A melhor mensagem de erro é aquela que nunca aparece.” <br> — Thomas Fuchs</p>
+          <div class="head-btn d-flex justify-content-center gap-3 mt-3">
+            <a href="../pages/contact.html" class="neon-btn">Contactar</a>
+          </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="service-container">
+        <div class="row">
+          <!-- Menu Vertical -->
+          <div class="col-md-4">
+            <ul id="services-menu" class="list-group">
+
+              <!-- Itens do menu serao carregados aqui via JS -->
+              
+            </ul>
+          </div>
+
+          <!-- Detalhes do Serviço -->
+          <div class="col-md-8">
+            <div id="services-details">
+
+              <!-- Detalhes do serviço serao carregados via JS -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="neon-hr">
+
+    <!-- Budget section -->
+    <section class="budget container text-center" id="budget">
+      <div class="budget-title col-12">
+        <h2>Solicite um Orçamento</h2>
+      </div>
+        <div class="budget-container">
+          <form type="submit" id="budget-form">
+            <div class="mb-3">
+              <label for="name" class="form-label" >Nome:</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label" >E-mail:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="project-type" class="form-label" >Tipo de projeto:</label><br>
+                <select name="project-type" id="project-type" class="form-select" required>
+                  <option value="webdesign">Web-design</option>
+                  <option value="webdevelopment">Web-development</option>
+                  <option value="uxui">UX/UI</option>
+                </select>
+            </div>
+            <div class="mb-3">
+              <label for="project-size" class="form-label" >Tamanho do Projecto (nr. de páginas):</label><br>
+                <input type="number" id="project-size" name="project-size" required>
+            </div>
+            <div class="mb-3">
+              <label for="description">Descrição do projeto:</label><br>
+                <textarea name="description" id="description" cols="50" rows="3" placeholder="Descreva brevemento a sua ideia para o projeto. O resultado será apresentado abaixo!"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="btn-form">Simular Orçamento</button>
+          </form>
+          <div id="budget-result" class="result-container mt-4"></div>
+        </div>
+    </section>
+
+    <hr class="neon-hr">
+
+    <!-- FAQ Section -->
+    <section id="faq" class="container">
+
+      <div class="faq-title col-12 text-center mb-4">
+        <h2>FAQ</h2>
+      </div>
+
+      <div class="faq-container">
+      <!-- FAQ Perguntas -->
+      <div class="faq-item">
+        <h3 class="faq-question">O que é Web Design e por que é importante?</h3>
+          <div class="faq-answer">
+            <p><i class="fa-solid fa-hand-point-up"></i> Web Design refere-se à criação e ao layout de um site, incluindo aspectos como a estrutura, o design visual, as cores, fontes e imagens. Um bom design é crucial para atrair e reter visitantes, além de melhorar a usabilidade e a experiência do utilizador.</p>
+          </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Qual é a diferença entre Web Development e Web Design?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> Web Design foca-se na aparência e experiência do utilizador, enquanto Web Development envolve a programação e funcionalidade do site.</p>
+            </div>
+      </div>
+      
+      <div class="faq-item">
+        <h3 class="faq-question">O que é UX/UI Design?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> UX (User Experience) refere-se à experiência do utilizador ao interagir com um site ou aplicação, enquanto UI (User Interface) está relacionado ao design visual e aos elementos com os quais o utilizador interage.</p>
+            </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Quanto tempo leva para desenvolver um site?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> O tempo varia consoante a complexidade do projeto. Um site simples pode levar algumas semanas, enquanto projetos mais complexos podem demorar meses.</p>
+            </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Quais informações são necessárias para iniciar um projeto de Web Development?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> É importante definir o objetivo do site, o público-alvo, as funcionalidades desejadas, o design pretendido e o conteúdo que será apresentado.</p>
+            </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Qual é o custo médio para desenvolver um site?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> O custo pode variar bastante, dependendo do tamanho e das funcionalidades do site. Pode ir de algumas centenas a milhares de euros.</p>
+            </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">O que é um site responsivo?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> Um site responsivo é aquele que se adapta a diferentes tamanhos de ecrã, garantindo uma boa experiência tanto em computadores como em dispositivos móveis.</p>
+            </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Por que devo investir em UX/UI Design?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> Investir em UX/UI Design melhora a satisfação do utilizador, aumenta a taxa de conversão e reduz a taxa de rejeição do site.</p>
+            </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Como posso garantir que o meu site seja encontrado nos motores de busca?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> Através de boas práticas de SEO (Search Engine Optimization), como o uso de palavras-chave, otimização de imagens, tempo de carregamento rápido e um conteúdo de qualidade.</p>
+            </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">O que acontece após o site ser lançado?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> Após o lançamento, é essencial fazer manutenção regular, atualizar o conteúdo, monitorizar o desempenho e otimizar o SEO para garantir um bom funcionamento e visibilidade online.</p>
+            </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Com que frequência um site deve ser atualizado?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> A atualização de um site depende do seu propósito. Sites institucionais podem precisar de revisões trimestrais, enquanto blogs e e-commerces exigem atualizações frequentes. Além disso, é essencial manter o código atualizado para segurança, desempenho e compatibilidade com novas tecnologias..</p>
+            </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Como posso começar a trabalhar contigo no meu projeto de website?</h3>
+            <div class="faq-answer">
+              <p><i class="fa-solid fa-hand-point-up"></i> Basta clicar no botão "Fale comigo" abaixo, que o irá redirecionar para a página de contactos. Lá, pode preencher o formulário e vamos discutir o seu projeto, as suas necessidades e criar um plano personalizado para o seu website. Estou aqui para o acompanhar em todo o processo!</p>
+            </div>
+      </div>
+      </div>
+    </section>
+
+    <hr class="neon-hr">
+      <!-- Contact Section -->
+      <section class="talk-to-me py-5">
+        <div class="container text-center talk-to-me-title">
+          <h2><i class="fa-regular fa-comments" aria-hidden="true"></i> Vamos Conversar</h2>
+            <p>Tem alguma ideia ou projeto em mente?<br>
+              Adoraria saber mais sobre o que procura e como podemos colaborar para criar algo incrível.<br>
+              Se deseja discutir um novo desafio, uma parceria ou apenas trocar ideias, estou disponível para ajudar.</p>
+            <a href="../pages/contact.html" target="_blank" class="neon-btn">Fale Comigo</a>
+          </div>
+        </section>
+    </main>
+
+    <footer>
+      <div class="social-media">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" title="Instagram de Jéssica Brito"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" title="Facebook de Jéssica Brito"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener" title="WhatsApp de Jéssica Brito"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/j%C3%A9ssica-brito-66b882281/" target="_blank" rel="noopener" title="LinkedIn de Jéssica Brito"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; <span id="year"></span> <a href="https://jessicabrito.lu" target="_blank" rel="noopener noreferrer" class="footer-link">Jéssica Brito</a> - Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- JQuery Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- LightBox JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+    <!-- BootStrap Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- JavaScript Budget -->
+    <script src="../js/budget.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+
+        // Typed.js
+        const typed = new Typed(".typed-text", {
+          strings: [
+            "Os meus serviços"
+          ],
+
+          typeSpeed: 80,
+          backSpeed: 50,
+          loop: true,
+          backDelay: 2000,
+          startDelay: 500
+        });
+        
+        // tsParticles
+        tsParticles.load("tsparticles", {
+          fullScreen: { enable: false },
+          particles: {
+            number: { value: 60 },
+            color: { value: "#00FFFF" },
+            shape: { type: "circle" },
+            opacity: {
+              value: 0.3,
+              random: true
+            },
+
+          size: {
+            value: 4,
+            random: { enable: true, minimumValue: 1 }
+          },
+        
+          move: {
+            enable: true,
+            speed: 1.2,
+            direction: "none",
+            random: false,
+            straight: false,
+            outModes: "bounce"
+          },
+        
+          links: {
+            enable: true,
+            distance: 150,
+            color: "#00FFFF",
+            opacity: 0.2,
+            width: 1
+          }
+        },
+
+      interactivity: {
+        events: {
+          onhover: { enable: true, mode: "grab" },
+          onclick: { enable: true, mode: "push" }
+        },
+        modes: {
+          grab: {
+            distance: 140,
+            links: { opacity: 0.4 }
+          },
+          push: { quantity: 4 }
+        }
+      },
+      
+        detectRetina: true,
+        background: { color: "transparent" }
+      });
+    });
+
+    // Sidebar JavaScript
+
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "260px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+    }
+
+    // Actualizar o ano do Copyright automaticamente
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+  </script>
+</body>
+</html>

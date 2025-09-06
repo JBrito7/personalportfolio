@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfólio de Jéssica Brito, uma desenvolvedora web apaixonada por criar experiências digitais envolventes e intuitivas. Conheça meus projetos e serviços.">
+    <meta name="keywords" content="Jéssica Brito, desenvolvedora web, web developer, frontend, back-end, UX/UI, portfólio, projetos web, serviços de desenvolvimento web">
+    <meta name="author" content="Jéssica Brito">
+
+      <!-- Bootstrap File -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+      <!-- CSS File -->
+      <link rel="stylesheet" href="../css/sobre-styles.css">
+
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32">
+
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/a0444fec76.js" crossorigin="anonymous"></script>
+
+      <!-- Typed.js -->
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+      <!-- Particles.js -->
+      <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.37.0/tsparticles.min.js"></script>
+
+      <!-- Lottie Files -->
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+      <!-- Title -->
+      <title> Jéssica Brito | Web Developer</title>
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Syne+Mono&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <span class="brand-main">Jéssica Brito <img src="../img/code.png" alt="coding logo"></span>
+          <span class="brand-subtitle">Web Developer</span>
+        </a>
+          <ul class="navbar-nav ms-auto flex-row gap-3">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/sobre-mim.html" >Sobre Mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contact.html">Contactos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../pages/servicos.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../pages/projectos.html">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../auth/login/login.php" title="Login">
+              <i class="fas fa-sign-in-alt"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../auth/register/register.php" title="Registar">
+                <i class="fas fa-id-card"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../my-admin/admin.php" title="My Admin">
+                <i class="fa-solid fa-user-tie"></i>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+
+    <!-- NavBar para versão mobile -->
+    <div class="mobile-topbar">
+      <button class="openbtn" onclick="openNav()">☰</button>
+        <a class="navbar-brand" href="../index.html">
+          <span class="brand-main">Jéssica Brito <img src="../img/code.png" alt="coding logo"></span>
+          <span class="brand-subtitle">Web Developer</span>
+        </a>
+    </div>
+
+        <!-- Sidebar -->
+        <div id="mySidebar" class="sidebar-glass">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+          <a href="../index.html">Home</a>
+          <a href="../pages/sobre-mim.html">Sobre Mim</a>
+          <a href="../pages/contact.html">Contactos</a>
+          <a href="../pages/servicos.html">Serviços</a>
+          <a href="../pages/projectos.html">Projetos</a>
+          <a href="../my-admin/admin.php">My Admin</a>
+          <a class="nav-link" aria-current="page" href="../auth/login/login.php" title="Login">
+          <i class="fas fa-sign-in-alt"></i>
+        </a>
+        <a class="nav-link" aria-current="page" href="../auth/register/register.php" title="Registar">
+          <i class="fas fa-id-card"></i>
+        </a>
+        </div>
+  </header>
+  <main>
+    <!-- Banner -->
+    <section class="banner container-fluid">
+      <div id="tsparticles"></div>
+        <div class="row align-items-center">
+          <div class="banner-img col-md-4 text-center">
+            <lottie-player src="../json/lottieflies-anime/sobre-anime.json"
+            class="lottie-animation"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+
+        <div class="banner-title col-md-8 text-center">
+          <h1>
+            <span class="typed-text"></span>
+            <span class="cursor"></span>
+          </h1>
+          <p>“Aprender a programar expande a tua mente e ajuda-te a pensar melhor.” <br> — Bill Gates</p>
+          <div class="head-btn d-flex justify-content-center gap-3 mt-3">
+            <a href="../pages/contact.html" class="neon-btn">Contactar</a>
+          </div>
+      </div>
+    </section>
+
+    <hr class="neon-hr">
+
+    <!-- About Me Section -->
+    <section class="about-me">
+      <div class="container-fluid about-me-container">
+        <div class="row">
+          <div class="col-12">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Dados e Contactos
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><strong>Nome:</strong> Jéssica Brito
+                      <br>
+                    <strong>Endereço:</strong> Luxembourgo
+                      <br>
+                    <strong>Telefone:</strong> +352 000 000 00
+                      <br>
+                    <strong>Email:</strong> britojessica@mail.com
+                      <br>
+                    <strong>LinkedIn:</strong> linkedin.com/
+                      <br>
+                    <strong>GitHub:</strong> github.com/
+                  </div>
+                </div>
+              </div>
+
+              <!-- Accordion item 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Perfil Profissional
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Sou Jéssica Brito, uma desenvolvedora web em início de carreira, apaixonada por criar soluções digitais funcionais e elegantes.
+                      <br>
+                    Com experiência em projetos como e-commerce e aplicações interativas, foco na criação de websites responsivos e experiências únicas para os utilizadores.
+                      <br>
+                    Curiosa e dedicada, estou sempre a aprender e pronta para colaborar em novos desafios. <br>Explore os meus projetos e entre em contacto para criarmos algo incrível juntos!
+                  </div>
+                </div>
+              </div>
+
+              <!-- Accordion item 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Experiência Profissional
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <h2>Web Developer Jr. - TechWave Solutions</h2>
+                      <ul>
+                        <li>
+                          Desenvolvi e mantive websites responsivos para diversos sectores, focando em desempenho e acessibilidade.
+                        </li>
+                        <li>
+                          Reduzi tempos de carregamento em até 40% com práticas de desenvolvimento eficientes.
+                        </li>
+                        <li>
+                          Colaborei com designers para criar interfaces modernas e centradas no utilizador.
+                        </li>
+                        <li>
+                          Implementei sistemas básicos de gestão de conteúdo (CMS) personalizados para clientes.
+                        </li>
+                      </ul>
+                    <h2>Front-End Developer - CreativeCode Agency</h2>
+                      <ul>
+                        <li>
+                          Transformei designs complexos em websites funcionais e atractivos.
+                        </li>
+                        <li>
+                          Desenvolvi componentes reutilizáveis com React, aumentando a eficiência da equipa.
+                        </li>
+                        <li>
+                          Realizei testes de compatibilidade e corrigi problemas em diferentes dispositivos.
+                        </li>
+                        <li>
+                          Introduzi melhorias que reduziram os prazos de entrega em 15%.
+                        </li>
+                      </ul>
+                    <h2>Freelancer: Desenvolvedora Web</h2>
+                      <ul>
+                        <li>
+                          Desenvolvi websites modernos e responsivos para pequenos negócios locais.
+                        </li>
+                        <li>
+                          Ofereci soluções personalizadas, incluindo integração com sistemas de reserva online.
+                        </li>
+                        <li>
+                          Apliquei práticas básicas de SEO para melhorar a presença online dos clientes.
+                        </li>
+                      </ul>
+                    <h2>Assistente de Desenvolvimento Web - DigitalSpark</h2>
+                        <ul>
+                          <li>
+                            Auxiliei na criação de páginas web dinâmicas com HTML, CSS e JavaScript.
+                          </li>
+                          <li>
+                            Participei em brainstormings para melhorar design UX/UI.
+                          </li>
+                          <li>
+                            Automatizei tarefas simples, aumentando a eficiência do trabalho da equipa.
+                          </li>
+                        </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Accordion item 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Habilidades Profissionais
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Sou especialista em Desenvolvimento Front-End, utilizando HTML, CSS e JavaScript para criar interfaces responsivas e interativas.
+                      <br>
+                    No Back-End, trabalho com Node.js, PHP e bases de dados, criando soluções seguras e eficientes.
+                      <br>
+                    Com foco em UX/UI, procuro sempre projetar experiências intuitivas e agradáveis para os utilizadores, garantindo que cada projeto seja funcional e fácil de navegar.
+                      <br>
+                    Estou sempre a evoluir e pronta para novos desafios no desenvolvimento web.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Accordion item 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">Educação e Formação
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <h2>Escola Básica e Secundária da Ilha da Madeira</h2>
+                      <p>Comecei a minha formação académica na escola básica na Ilha da Madeira, onde desenvolvi competências fundamentais em diversas áreas do conhecimento. Durante este período, fui introduzida ao mundo da informática, o que despertou o meu interesse por tecnologias e programação.</p>
+
+                    <h2>Curso Profissional de Web Development - Master D</h2>
+                      <p>Aprofundei os meus conhecimentos em Desenvolvimento Web através de um curso profissional na Master D, onde adquiri uma base sólida em HTML, CSS, JavaScript e no desenvolvimento de websites interativos. O curso também incluiu fundamentos de Back-End, preparando-me para criar soluções completas e funcionais para a web.</p>
+
+                    <h2>Cursos Online - Coursera, Udemy, Codecademy</h2>
+                      <p>Para expandir ainda mais os meus conhecimentos e me manter atualizada com as novas tendências, participei de diversos cursos online em plataformas como Coursera, Udemy e Codecademy. Aprendi sobre React, Node.js, PHP, bases de dados e UX/UI Design, além de explorar tópicos avançados que me permitiram dominar tanto o Front-End quanto o Back-End. Estes cursos foram essenciais para o meu desenvolvimento contínuo e para me tornar uma profissional mais versátil e competente.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Accordion item 5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">Os meus Projetos
+                  </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><strong>Lavradores Market</strong>
+                        <ul>
+                          <li>Criei um site de e-commerce responsivo para a venda de produtos artesanais e tradicionais da Ilha da Madeira, como vinhos, bordados e souvenirs. A plataforma foi projetada para ser intuitiva e fácil de usar, com integração de pagamentos online e funcionalidades de gestão de inventário, permitindo uma experiência de compra fluida e segura.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li><strong>ResOS</strong>
+                        <ul>
+                          <li>Desenvolvi uma aplicação web dedicada a facilitar o processo de reservas de mesa em restaurantes. O sistema permite que os clientes escolham data, horário e número de pessoas, oferecendo uma experiência de reserva simples e eficaz, com confirmação via e-mail para maior comodidade.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li><strong>Discover Madeira</strong>
+                        <ul>
+                          <li>Este jogo educativo interativo permite aos jogadores explorar a Ilha da Madeira de forma virtual, promovendo o conhecimento sobre a cultura, história e pontos turísticos locais. Uma forma divertida de aprender sobre a região, ideal para turistas e residentes que desejam conhecer melhor a ilha.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li><strong>Island Adventure</strong>
+                        <ul>
+                          <li>Um site com design profissional que apresenta os serviços de uma empresa, com informações sobre a equipe, testemunhos de clientes e um formulário de contacto. O objetivo foi criar uma imagem de confiança e excelência nos serviços oferecidos, proporcionando aos visitantes uma experiência visualmente atraente e informativa.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Accordion item 6 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">Idiomas
+                  </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>Tenho fluência em vários idiomas, o que me permite comunicar eficazmente em diferentes contextos:</p>
+                      <ul>
+                        <li>
+                          <strong><i>Português</i></strong> - Língua materna;
+                        </li>
+                        <li>
+                          <strong><i>Inglês</i></strong> - Fluente, com experiência em comunicação profissional e técnica;
+                        </li>
+                        <li>
+                          <strong><i>Espanhol</i></strong> - Intermediário, com capacidade para compreender e comunicar de forma eficaz;
+                        </li>
+                        <li>
+                          <strong><i>Francês</i></strong> - Básico, com conhecimentos suficientes para conversação simples;
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Accordion item 7 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">Hobbies e Interesses
+                    </button>
+                  </h2>
+                  <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Tenho interesse em tecnologia e inovação, acompanhando as últimas tendências em inteligência artificial e realidade aumentada. Amo gaming e tudo que seja relacionado com esse tema.
+                        <br>
+                      Gosto de explorar design gráfico, fotografia e de me inspirar na cultura e gastronomia de diferentes partes do mundo enquanto viajo por vários países.
+                        <br>
+                      Além disso, sou adepta de um estilo de vida saudável, praticando ciclismo e futebol.</p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="neon-hr">
+
+    <!-- Contact Section -->
+    <section class="talk-to-me py-5">
+      <div class="container text-center talk-to-me-title">
+        <h2><i class="fa-regular fa-comments" aria-hidden="true"></i> Vamos Conversar</h2>
+          <p>Tem alguma ideia ou projeto em mente?
+              <br>
+            Adoraria saber mais sobre o que procura e como podemos colaborar para criar algo incrível.
+              <br>
+            Se deseja discutir um novo desafio, uma parceria ou apenas trocar ideias, estou disponível para ajudar.
+          </p>
+          <a href="../pages/contact.html" target="_blank" class="neon-btn">Fale Comigo</a>
+      </div>
+    </section>
+    </main>
+    <footer>
+      <!-- Social Media Buttons -->
+      <div class="social-media">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" title="Instagram de Jéssica Brito"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" title="Facebook de Jéssica Brito"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener" title="WhatsApp de Jéssica Brito"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/j%C3%A9ssica-brito-66b882281/" target="_blank" rel="noopener" title="LinkedIn de Jéssica Brito"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+
+      <!-- Copyrights -->
+      <div class="copyright">
+        <p>&copy; <span id="year"></span> <a href="https://jessicabrito.lu" target="_blank" rel="noopener noreferrer" class="footer-link">Jéssica Brito</a> - Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        
+        // Typed.js
+        const typed = new Typed(".typed-text", {
+          strings: [
+            "Sobre Mim"
+          ],
+
+          typeSpeed: 80,
+          backSpeed: 50,
+          loop: true,
+          backDelay: 2000,
+          startDelay: 500
+        });
+
+        // tsParticles
+        tsParticles.load("tsparticles", {
+          fullScreen: { enable: false },
+          particles: {
+            number: { value: 60 },
+            color: { value: "#00FFFF" },
+            shape: { type: "circle" },
+            opacity: {
+              value: 0.3,
+              random: true
+            },
+
+          size: {
+            value: 4,
+            random: { enable: true, minimumValue: 1 }
+          },
+        
+          move: {
+            enable: true,
+            speed: 1.2,
+            direction: "none",
+            random: false,
+            straight: false,
+            outModes: "bounce"
+          },
+        
+          links: {
+            enable: true,
+            distance: 150,
+            color: "#00FFFF",
+            opacity: 0.2,
+            width: 1
+          }
+        },
+
+      interactivity: {
+        events: {
+          onhover: { enable: true, mode: "grab" },
+          onclick: { enable: true, mode: "push" }
+        },
+        modes: {
+          grab: {
+            distance: 140,
+            links: { opacity: 0.4 }
+          },
+          push: { quantity: 4 }
+        }
+      },
+      
+        detectRetina: true,
+        background: { color: "transparent" }
+      });
+    });
+
+    // Sidebar JavaScript
+
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "260px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+    }
+
+    // Actualizar o ano do Copyright automaticamente
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+  </script>
+  </body>
+</html>

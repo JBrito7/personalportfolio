@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "title": "Web Design",
+        "description": "Criação de designs modernos e responsivos para websites.",
+        "image": "../img/services/1web-design.jpg"
+    },
+
+    {
+        "id": 2,
+        "title": "SEO",
+        "description": "Otimização de sites para motores de busca.",
+        "image": "../img/services/2seo.jpg"
+    },
+
+    {
+        "id": 3,
+        "title": "Desenvolvimento Web",
+        "description": "Desenvolvimento de websites e aplicações web.",
+        "image": "../img/services/3web-dev.jpg"
+    },
+
+    {
+        "id": 4,
+        "title": "Desenvolvimento Mobile",
+        "description": "Criação de aplicações móveis para Android e iOS com design responsivo.",
+        "image": "../img/services/4mobile-dev.jpg"
+    },
+
+    {
+        "id": 5,
+        "title": "UX/UI Design",
+        "description": "Criação de interfaces de usuário intuitivas e experiências de usuário envolventes.",
+        "image": "../img/services/5ux-ui.jpg"
+    },
+
+    {
+        "id": 6,
+        "title": "Integração com Back-End",
+        "description": "Integração de front-end com back-end para aplicações web dinâmicas.",
+        "image": "../img/services/6back-end.jpg"
+    }
+]
